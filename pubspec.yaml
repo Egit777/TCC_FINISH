@@ -1,0 +1,67 @@
+name: Minha_Gazoza
+description: Somos um grupo de estudantes e estamos no último ano da escola, iniciamos o curso em 2020 na ETEC Antônio Furlan. No início de 2022, entramos com o projeto de TCC “Gestão de combustível”. Com esse projeto, temos o objetivo de ajudar a fazer cálculos mais rápidos e a controlar os gastos de\n\n consumo do usuário.
+
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  charts_flutter: ^0.12.0
+
+  sqflite: ^2.0.2+1
+  path: ^1.8.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.16
+  mask_text_input_formatter: ^2.4.0
+ 
+  
+  
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/applogo.png
+  - assets/images/LogoApp.png
+  - assets/images/Icon.jpg
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/applogo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/applogo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/applogo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/applogo.png"
